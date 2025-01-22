@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    .bgsquid{
+        background-image: url(https://www.baltana.com/files/wallpapers-36/Squid-Game-Cast-HD-Desktop-Wallpaper-126097.jpg);
+        background-size:auto ;
+        
+      /* background-position: center; */
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    }
+</style>
+        
+</head>
+<body class="bgsquid ">
+    <nav class="p-2 flex bg-slate-200 justify-end items-center w-full h-14 gap-4 font-bold">
+        <div class=" items-center gap-5 hidden md:flex m-2 ">
+        <a class="" href="./home.html">Home</a>
+        <a href="./index.html">Grid</a>
+        <a href="https://www.linkedin.com/in/harshvardhan-singh-chauhan-b70482324/">Linkedin</a>
+    </div>
+        <button class="p-3 md:hidden"  onclick="handlemenu()"><i class="fa-solid fa-bars"></i></button>
+    <div id="nav-dialog" class="fixed hidden bg-slate-50 inset-0 flex p-4 justify-between gap-5 ">
+    <div class="mainnavbar  md: flex flex-col  gap-8">
+        <a class="" href="./home.html">Home</a>
+        <a href="./index.html">Grid</a>
+        <a href="https://www.linkedin.com/in/harshvardhan-singh-chauhan-b70482324/">Linkedin</a>
+    </div>
+    <div>
+        <button onclick="handlemenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    
+    </nav>
+    
+    <main class=" flex items-center justify-center min-h-screen" >
+        <div class=" shadow-lg rounded-lg p-6 w-80">
+            <!-- Image of the person -->
+            <div class="flex justify-center mb-4">
+                <img width="100px" src="https://imgs.search.brave.com/bGJ03MxElrjTO6pJ12PQo34SrelzLIqz2DSLrMp-exk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS85Ny85/My9aeUxBZ24uanBn">
+            </div>
+            
+            <!-- Registration Number -->
+            <div class="text-center mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-6 rounded-lg shadow-lg">
+                <h1 class="text-3xl font-bold text-white mb-2"> Harshvardhan Singh Chauhan</h1>
+                <h2 class="text-2xl font-semibold text-gray-200 mb-1">Registration Number</h2>
+                <p class="text-xl text-white font-bold bg-gray-800 px-3 py-1 inline-block rounded-md">
+                    20244075
+                </p>
+            </div>
+            
+            
+            <!-- Instagram Redirect Button -->
+            <div class="flex justify-center">
+                <a href="https://www.instagram.com/harsherchauhan_18" target="_blank">
+                    <button class="bg-pink-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-pink-600 transition-colors duration-300">
+                        Visit Instagram
+                    </button>
+                </a>
+            </div>
+        </div>
+    </main>
+    <script src="https://www.instagram.com/harsherchauhan_18" crossorigin="anonymous"></script> 
+    <script src="script.js"></script>
